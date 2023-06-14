@@ -1,0 +1,7 @@
+.RightSplit {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-basis: 45%;
+  background: #9c60ff;
+  border-radius: 11px;
+}

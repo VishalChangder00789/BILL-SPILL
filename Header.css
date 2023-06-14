@@ -1,0 +1,32 @@
+html body {
+  margin: 0;
+  padding: 0;
+  background: #d6bcff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid white; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.AppHeader {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27.34px;
+  letter-spacing: 15px;
+  width: 50%;
+  height: 10%;
+  color: #6f3cff;
+
+  margin-top: 4%;
+}
