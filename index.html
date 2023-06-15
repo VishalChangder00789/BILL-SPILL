@@ -25,7 +25,7 @@
         <div class="LeftSplit">
             <div class="InputContainer">
                 <div class="Title">Bill</div>
-                <div class="LeftSplit_Input"><span>&#8377</span> 0</div>
+                <div class="LeftSplit_Input"><span>&#8377</span><input class="LeftSplit_Input_input" /></div>
             </div>
 
             <div class="TipContainer">
@@ -45,17 +45,44 @@
                     <div class="Title">Number of People</div>
                 </div>
                 <div class="InputsContainer">
-                    <div class="Icon"><img /></div>
-                    <button class="IncrementButton">+</button>
-                    <div class="Display">0</div>
-                    <button class="IncrementButton">-</button>
+                    <div class="Icon"><img class="IconImage" src="./Assets//man.png" />
+                        <div class="IconImageNumber">0</div>
+                    </div>
+                    <div class="FunctionalButtonContainer">
+                        <button class="IncrementButton">+</button>
+                        <div class="Display">0</div>
+                        <button class="IncrementButton">-</button>
+                    </div>
                 </div>
             </div>
 
             <button class="Button_Function" id="Generate_Button">Generate Bill</button>
 
         </div>
-        <div class="RightSplit"></div>
+
+        <!-- Right Split -->
+
+
+        <div class="RightSplit">
+            <div class="TipAmount">
+                <div class="TipAmountTitle">
+                    <div>Tip Amount</div>
+                    <div class="second"> /person</div>
+                </div>
+                <div class="Amount"><span>&#8377</span>0.00</div>
+            </div>
+            <div class="TipAmount">
+                <div class="TipAmountTitle">
+                    <div>Tip Amount</div>
+                    <div class="second"> /person</div>
+                </div>
+                <div class="Amount"><span>&#8377</span>0.00</div>
+            </div>
+
+            <div class="ButtonContainers" id="Movement">
+                <button class="Button_Functions" id="Reset_Button">RESET</button>
+            </div>
+        </div>
     </div>
 </body>
 

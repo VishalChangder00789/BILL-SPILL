@@ -1,7 +1,7 @@
 .Container {
   display: flex;
   /* border: 2px solid black; */
-  height: 40%;
+  height: 45%;
   width: 50%;
   margin-top: 5%;
   border-radius: 15px;
@@ -19,36 +19,158 @@
   flex-direction: column;
   border-radius: 15px;
   /* background: rgba(104, 103, 103, 0.546); */
+  height: 105%;
 }
 
 .InputContainer {
   /* border: 2px solid rgb(255, 0, 0); */
   display: flex;
   flex-direction: column;
-  margin-top: 8%;
-  height: 20%;
+  /* margin-top: 0%; */
+  height: 15%;
+  /* font-weight: bold; */
+  /* border-radius: 15px; */
+}
+.LeftSplit_Input_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 10%;
+  background: none;
+  font-family: monospace;
+  outline: none;
+  border: none;
+  font-size: larger;
+  color: #9c60ff;
+  font-weight: 700;
+  font: 21px;
+  line-height: 21.5px;
+  font: 1%;
+  /* border: 2px solid rgb(255, 0, 0); */
 }
 
 .TipContainer {
-  border: 2px solid rgb(0, 81, 255);
+  /* border: 2px solid rgb(0, 81, 255); */
   margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  height: 38%;
+  font-weight: bold;
+}
+
+.ButtonContainer {
+  margin-top: 2%;
+  /*border: 2px solid red;
+  display: flex;
+  flex-direction: row; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Button {
+  display: flex;
+  width: 28%;
+  /* border: 2px solid blue; */
+  margin-top: 2%;
+  background: #9c60ff;
+  color: white;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: large;
+  outline: none;
+  border: none;
+  /* margin-bottom: 1%; */
 }
 
 .PeopleContainer {
   display: flex;
   flex-direction: column;
-  border: 2px solid skyblue;
-  margin-top: 8%;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: 2%;
+  height: 20%;
+  /* flex-wrap: wrap; */
+  /* justify-content:; */
+}
+
+.TitleContainer {
+  display: flex;
+  /* border: 2px solid blueviolet; */
 }
 
 .InputsContainer {
   display: flex;
   flex-direction: row;
+  /* border: 2px solid rgb(0, 255, 0); */
+  width: 100%;
+  height: 60%;
+  margin-top: 1%;
+}
+.IconImage {
+  width: 6%;
+  height: 40%;
+  margin-left: 3%;
+}
+
+.FunctionalButtonContainer {
+  display: flex;
+  /* border: 2px solid violet; */
+  width: 30%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.IncrementButton {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #9c60ff;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+.Display {
+  display: flex;
+  width: 50%;
+  border: 2px solid rgb(63, 63, 63);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.Icon {
+  /* border: 2px solid violet; */
+  display: flex;
+  width: 80%;
+  height: 100%;
+  background: rgb(182, 172, 196, 0.53);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.IconImageNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  height: 100%;
+  width: 10%;
+  /* border: 2px solid salmon; */
+  font-size: larger;
+  color: #9c60ff;
 }
 
 .Title {
   color: #9c60ff;
   font-size: 15px;
+  font-weight: bold;
+  margin-top: 1%;
 }
 
 .LeftSplit_Input {
@@ -59,18 +181,31 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding: 2%;
+  padding-right: 5%; */
   height: 100%;
+  padding-left: 5%;
   font-size: x-large;
   color: #9c60ff;
   /* font-weight: bold; */
+  /* border: 2px solid grey; */
+  border-radius: 2px;
+  margin-top: 2%;
 }
 
 .Button_Function {
   display: flex;
-  margin-top: 15%;
+  margin-top: 5%;
+  /* border: 2px solid blue; */
+  height: 12%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: larger;
+  color: grey;
+  outline: none;
+  border: none;
 }
 
 /**/

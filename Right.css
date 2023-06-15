@@ -4,4 +4,82 @@
   flex-basis: 45%;
   background: #9c60ff;
   border-radius: 11px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: monospace;
+  font-size: xx-large;
+  padding: 2%;
+  color: #c39fff;
+}
+
+.TipAmount {
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid black; */
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TipAmountTitle {
+  font-size: medium;
+  font-size: 700;
+  color: white;
+  /* border: 2px solid rgb(0, 154, 43); */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;*/
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 35%;
+  height: 100%;
+}
+
+.Total {
+  width: 100%;
+  height: 20%;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.second {
+  color: #c39fff;
+}
+
+.ButtonContainers {
+  /* border: 2px solid black; */
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Button_Functions {
+  display: flex;
+  /* border: 2px solid blue; */
+  height: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: large;
+  color: grey;
+  outline: none;
+  border: none;
+  background: #c39fff;
+}
+
+#Movement {
+  position: relative;
+  top: 25%;
+}
+
+#Reset_Button {
+  width: 100%;
+  height: 100%;
 }
