@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 550px) {
   .AppHeader {
     /* border: 2px solid green; */
     display: flex;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 550px) {
   /* Mobile Top View */
   .InputContainer {
     /* border: 2px solid blue; */
@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 550px) {
   /* Tips container */
 
   .TipContainer {
@@ -72,7 +72,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 550px) {
   .PeopleContainer {
     /* border: 2px solid blue; */
     margin-top: 0;

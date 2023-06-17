@@ -81,8 +81,8 @@ const handleGenerateBill = () => {
 
     tipAmnt = parseFloat(input.value * percentage);
 
-    TotalAmount.innerHTML = total;
-    TipAmount.innerHTML = tipAmnt;
+    TotalAmount.innerHTML = total.toFixed(3);
+    TipAmount.innerHTML = tipAmnt.toFixed(3);
     billGenerated = true;
     Reset_Button.style.background = "white";
   }
