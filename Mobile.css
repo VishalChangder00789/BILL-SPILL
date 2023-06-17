@@ -1,0 +1,98 @@
+@media screen and (max-width: 900px) {
+  .AppHeader {
+    /* border: 2px solid green; */
+    display: flex;
+    margin-top: 15%;
+  }
+
+  .Container {
+    margin-top: 10%;
+    width: 80%;
+    height: 65%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LeftSplit {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* Mobile Top View */
+  .InputContainer {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+  }
+
+  .Title {
+    margin: 0;
+  }
+
+  .LeftSplit_Input {
+    margin: 0;
+  }
+
+  .LeftSplit_Input_input {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* Tips container */
+
+  .TipContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 100%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  .ButtonContainer {
+    display: flex;
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+
+  .Button {
+    border-radius: 50%;
+    height: 80%;
+    width: 12%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .PeopleContainer {
+    /* border: 2px solid blue; */
+    margin-top: 0;
+    height: 60%;
+  }
+  .Icon {
+    width: 55%;
+  }
+
+  .IconImage {
+    padding-left: 2%;
+  }
+
+  .FunctionalButtonContainer {
+    /* border: 2px solid blue; */
+    width: 45%;
+  }
+
+  .Button_Function {
+    /* border: 2px solid red; */
+    height: 40%;
+  }
+}
